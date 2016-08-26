@@ -1,7 +1,13 @@
 .book-image {
   width: 100%;
 }
+.nav-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
 .nav-favorites {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
   float: right;
 }
 .title-author-text {
@@ -37,4 +43,31 @@
 }
 .review-btn {
   margin-top: 10px;
+}
+
+/*Review Tile*/
+.review-tile-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+}
+.review-tile-rating {
+  color: red;
+}
+.review-tile-author {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+.review-tile-date {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
+}
+.review-tile-body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+.review-tile-border {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
