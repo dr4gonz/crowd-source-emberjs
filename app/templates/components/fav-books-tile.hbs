@@ -1,0 +1,3 @@
+{{#each favoriteBooks.books as |book|}}
+  {{#link-to 'book' book.id}}{{index-book-tile book=book}}{{/link-to}}
+{{/each}}

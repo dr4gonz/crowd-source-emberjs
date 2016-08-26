@@ -20,7 +20,6 @@ export default Ember.Route.extend({
       newReview.save().then(function() {
         return book.save();
       });
-      this.get('bookRating').add(newReview);
       this.transitionTo('book');
     },
   },

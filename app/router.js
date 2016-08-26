@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('new-book');
   this.route('book', { path: '/book/:book_id' });
-  this.route('favorite-books');
+  this.route('my-favorites');
 });
 
 export default Router;

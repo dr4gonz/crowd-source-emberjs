@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:favorite-books', 'Unit | Route | favorite books', {
+moduleFor('route:my-favorites', 'Unit | Route | my favorites', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
