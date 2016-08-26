@@ -1,3 +1,14 @@
 .book-image {
   width: 100%;
 }
+.nav-favorites {
+  float: right;
+}
+.title-author-text {
+  font-family: sans-serif;
+  font-size: 0.95em;
+}
+.publish-date {
+  font-family: sans-serif;
+  font-size: 0.7em;
+}

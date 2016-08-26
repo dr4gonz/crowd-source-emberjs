@@ -1,8 +1,14 @@
 <div class="container">
   <div class="row">
-    {{#link-to 'new-book'}}<button class="btn btn-xs btn-primary">New Book</button>{{/link-to}}
-    {{#each model as |book|}}
-      {{#link-to 'book' book.id}}{{index-book-tile book=book}}{{/link-to}}
-    {{/each}}
+    <div class="col-sm-12">
+      {{#link-to 'new-book'}}<button class="btn btn-xs btn-primary">New Book</button>{{/link-to}}
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        {{#each model as |book|}}
+        {{#link-to 'book' book.id}}{{index-book-tile book=book}}{{/link-to}}
+        {{/each}}
+      </div>
+    </div>
   </div>
 </div>

@@ -1,16 +1,14 @@
 <div class="container">
   <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      {{#link-to 'index'}}<a class="navbar-brand"><span class="nav-title">Books</span></a>{{/link-to}}
-      {{#link-to 'my-favorites'}}<span class="nav-title">Favorite Books</span>{{/link-to}}
+    <div class="container-fluid">
+      <div class="navbar-header">
+        {{#link-to 'index'}}<a class="navbar-brand"><span class="nav-title">Books</span></a>{{/link-to}}
+        {{#link-to 'my-favorites'}}<span class="nav-favorite">Favorite Books</span>{{/link-to}}
+      </div>
     </div>
-  </div>
-</nav>
-  <div class="container">
-    {{outlet}}
-  </div>
-  <hr>
-  <footer>
-  </footer>
+  </nav>
 </div>
+{{outlet}}
+<hr>
+<footer>
+</footer>
