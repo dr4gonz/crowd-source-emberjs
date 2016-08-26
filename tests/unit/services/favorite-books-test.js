@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('service:book-rating', 'Unit | Service | book rating', {
+moduleFor('service:favorite-books', 'Unit | Service | favorite books', {
   // Specify the other units that are required for this test.
   // needs: ['service:foo']
 });
