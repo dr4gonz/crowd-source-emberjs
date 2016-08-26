@@ -5,10 +5,36 @@
   float: right;
 }
 .title-author-text {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.95em;
 }
 .publish-date {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 0.7em;
+}
+/*Book Detail Page*/
+.detail-page-image {
+  height: 300px;
+}
+.detail-page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+.detail-page-author {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+.detail-page-date-pub {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+.detail-page-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+.detail-page-rating {
+  color: red;
+}
+.review-btn {
+  margin-top: 10px;
 }

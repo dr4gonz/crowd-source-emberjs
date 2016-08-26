@@ -1,14 +1,38 @@
 <div class="container">
-  <div class="row">
-    <div class="col-md-3">
-      <img src={{book.image}}>
+  <div class="col-sm-3">
+    <img class="detail-page-image" src={{book.image}}>
+  </div>
+  <div class="col-sm-9">
+    <div class="row">
+      <div class="col-sm-12">
+        <span class="detail-page-title">{{book.title}}</span>
+      </div>
     </div>
-    <div class="col-md-9">
-      <p>{{book.title}}</p>
+    <div class="row">
+      <div class="col-sm-12">
+      <span class="detail-page-rating">{{reviewStars book.rating}}</span>
+      </div>
     </div>
-    <div class="col-md-1">
-      {{reviewStars book.rating}}
+    <div class="row">
+      <div class="col-sm-12">
+      <span class="detail-page-author">{{book.author}}</span>
+      </div>
     </div>
-    <button class="btn btn-xs btn-primary" {{action 'addToFavorite' book}}>Favorite!</button>
+    <div class="row">
+      <div class="col-sm-12">
+      <span class="detail-page-date-pub">{{book.date_pub}}</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+      <span class="detail-page-description">{{book.description}}</span>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-12">
+        <button class="btn btn-xs btn-primary" {{action 'addToFavorite' book}}>Favorite!</button>
+      </div>
+    </div>
   </div>
 </div>

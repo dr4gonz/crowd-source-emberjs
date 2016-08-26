@@ -1,5 +1,13 @@
 {{book-detail book=model}}
-{{new-review-form saveReview="saveReview" book=model}}
-{{#each model.reviews as |review|}}
-  {{review-tile review=review}}
-{{/each}}
+<div class="container">
+  <div class="col-sm-12 review-btn">
+    {{new-review-form saveReview="saveReview" book=model}}
+  </div>
+</div>
+<div class="container">
+  <div class="col-sm-12">
+    {{#each model.reviews as |review|}}
+    {{review-tile review=review}}
+    {{/each}}
+  </div>
+</div>
