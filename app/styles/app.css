@@ -18,6 +18,9 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 0.7em;
 }
+.new-book-btn {
+  margin-bottom: 10px;
+}
 /*Book Detail Page*/
 .detail-page-image {
   height: 300px;
