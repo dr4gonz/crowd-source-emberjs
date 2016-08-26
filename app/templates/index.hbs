@@ -1,6 +1,6 @@
 <div class="container">
   <div class="row">
-    {{#link-to 'new-book'}}<button class="btn btn-sm btn-primary">New Book</button>{{/link-to}}
+    {{#link-to 'new-book'}}<button class="btn btn-xs btn-primary">New Book</button>{{/link-to}}
     {{#each model as |book|}}
       {{#link-to 'book' book.id}}{{index-book-tile book=book}}{{/link-to}}
     {{/each}}
