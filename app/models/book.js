@@ -5,5 +5,6 @@ export default DS.Model.extend({
   author: DS.attr(),
   date_pub: DS.attr(),
   image: DS.attr(),
-  reviews: DS.hasMany('review', {async: true})
+  reviews: DS.hasMany('review', {async: true}),
+  rating: DS.attr()
 });

@@ -8,7 +8,8 @@ export default Ember.Component.extend({
         title: this.get('title'),
         author: this.get('author'),
         date_pub: moment(this.get('date_pub')).format('M/D/YYYY'),
-        image: this.get('image')
+        image: this.get('image'),
+        rating: 0
       };
       this.sendAction('createBook', params);
     },

@@ -1,10 +1,5 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-3">
-      <img src={{model.image}}>
-    </div>
-    <div class="col-md-9">
-      <p>{{model.title}}</p>
-    </div>
-  </div>
-</div>
+{{book-detail book=model}}
+{{new-review-form saveReview="saveReview" book=model}}
+{{#each model.reviews as |review|}}
+  {{review-tile review=review}}
+{{/each}}
